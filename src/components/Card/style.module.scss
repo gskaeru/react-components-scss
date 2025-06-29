@@ -1,0 +1,70 @@
+.card {
+  margin: 1rem auto;
+  width: 300px;
+
+  &__inner {
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.16);
+    color: #212121;
+    text-decoration: none;
+  }
+
+  &__header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__title {
+    padding: 1rem 1rem 0;
+    font-size: 1.6rem;
+    order: 1;
+    margin-bottom: 0.6rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  &__thumbnail {
+    margin: 0;
+    order: 0;
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  &__body {
+    padding: 0 1.5rem;
+  }
+
+  &__text {
+    font-size: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 1rem;
+  }
+
+  &__footer {
+    padding: 1rem;
+    border-top: 1px solid #ddd;
+  }
+
+  .button {
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    text-align: center;
+
+    a {
+      text-decoration: none;
+    }
+
+    &__compact {
+      padding: 0.5rem 1rem;
+      border-radius: 0.25rem;
+      background-color: #4f96f6;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+}
